@@ -1,0 +1,295 @@
+<style>
+@media (min-width: 200px){
+    .container-2{
+    display:flex;
+    align-items: stretch;
+    flex-direction: row;
+    }
+
+    .container-2{
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+}
+
+.container-2 div{
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.box{
+    flex-basis: 20%;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding:0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #dfd9d4;
+    padding-top: 61px;
+    padding-bottom: 120px;
+    color: #000;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    margin-top: 140px;
+    width: 516px;
+}
+
+.title{
+    font-size: 36px;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #000;
+    display: block;
+    width: 223px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:45px;
+    text-decoration: none;
+}
+
+.intro{
+    width: 415px;
+}
+
+.travel{
+    margin-top: 25px;
+}
+
+.section-title{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.future{
+    padding-top: 107px;
+    padding-bottom: 120px;
+}
+
+.experiences{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.experience{
+    width: 307px;
+    border:  solid orange;
+    padding: 10px;
+    flex-basis: 20%;
+}
+
+.exp-title{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.exp-text{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 19px;
+}
+.input{
+    width: 342px;
+    border: 1px solid #bbbbbb;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    height: 44px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btn-form{
+    cursor: pointer;
+    width: 342px;
+    border: 0;
+    margin-top: 15px;
+    margin:auto;
+    display:block;
+}
+
+.form{
+    margin-bottom: 108px;
+    display: block;
+    text-align: center;
+}
+
+.bg{
+    width: 600px;
+    height: 500px;
+    align-items: center;
+}
+.choose{
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+    align-content: center;
+}
+.orderform{
+    align-items:center;
+}
+.secheader, .custom-title{
+    text-align: center;
+    background-color: #FAC898;
+}
+.custom{
+    background-image: url("file:///Users/julia/Desktop/DziubaPortfolio/img/food.jpeg"); 
+    background-position: center center;
+    background-size: 100%;
+    margin-bottom: 20px;
+}
+.footer{
+    padding: 45px 0;
+    background: #164d7a;
+}
+.credits{
+    font-size:14px;
+    color:#eaedf0;
+    text-align: center;
+}
+.title-text{
+    text-align: center;
+}
+
+</style>
+
+<header id="header" class="header">
+    <div class="container">
+
+    <div class="wrapper">
+      <div class="offer">
+          <h1 class="title">
+            Welcome to Paradise Pizza!
+          </h1>
+          <p class="intro">
+            Hello there! We are so excited to see you at our close-knit pizza paradise!<br><br>
+            With our thin, crisp crust, creamy souces, yummy topings and ,most importantly, the love of pizza making, we will provide you with the best pizza you have ever tasted.
+          </p>
+          <a href="#" class="btn">Start</a>
+      </div>
+
+      <img src="img/pizzabg1.png" class="bg" alt="trpic" class="travel">
+    </div>
+    </div>
+</header><br>
+<h2 class="secheader">What we offer</h2>
+<div class="container-2">
+    <div class="box">
+        <img src="img/pizza.png" class="choose" alt="iconfirst" class="icons">
+        <h3 class="exp-title">
+                Pizza:
+            </h3>
+            <p class="exp-text">
+                Juicy, affordable & delicious - our pizzas are the best in town!
+            </p>
+            <div class="orderform">
+                <input type = "checkbox" name = "toppings[]" value = "Letuce">Letuce<br>
+                <input type = "checkbox" name = "toppings[]" value = "Sweet corn">Sweet Corn<br>
+                <input type = "checkbox" name = "toppings[]" value = "Red peppers">Red Peppers<br>
+                <input type = "checkbox" name = "toppings[]" value = "Bacon">Bacon<br>
+                <a href="#" class="btn">See more</a>
+            </div>
+    </div>
+    <div class="box">
+            <img src="img/salad.png" class="choose" alt="iconfirst" class="icons">
+            <h3 class="exp-title">
+                Salads:
+            </h3>
+            <p class="exp-text">
+                Check out our large assortment of salads, perfect & yummy snack!
+            </p>
+            <div class="orderform">
+                <input type = "radio" name = "saucetype[]" value = "BBQ">BBQ<br>
+                <input type = "radio" name = "saucetype[]" value = "Garlic">Garlic<br>
+                <input type = "radio" name = "saucetype[]" value = "Marinara">Marinara<br>
+                <a href="#" class="btn">See more</a>
+            </div>
+    </div>
+    <div class="box">
+            <img src="img/pasta.png" class="choose" alt="iconfirst" class="icons">
+            <h3 class="exp-title">
+                Pasta:
+            </h3>
+            <p class="exp-text">
+                See our various pasta dishes - guaranteed to make your mouth water!
+            </p>
+            <div class="orderform">
+                <input type = "radio" name = "cheesetype[]" value = "Mozzarella">Mozzarella<br>
+                <input type = "radio" name = "cheesetype[]" value = "Parmesan">Parmesan<br>
+                <input type = "radio" name = "cheesetype[]" value = "Cheddar">Cheddar<br>
+                <a href="#" class="btn">See more</a>
+            </div>
+    </div>
+    <div class="box">
+        <img src="img/drink.png" class="choose" alt="iconfirst" class="icons">
+        <h3 class="exp-title">
+            Drinks:
+        </h3>
+        <p class="exp-text">
+            We have a number of amazing drinks to choose from!
+        </p>
+        <div class="orderform">
+            <input type = "radio" name = "cheesetype[]" value = "Mozzarella">Mozzarella<br>
+            <input type = "radio" name = "cheesetype[]" value = "Parmesan">Parmesan<br>
+            <input type = "radio" name = "cheesetype[]" value = "Cheddar">Cheddar<br>
+            <a href="#" class="btn">See more</a>
+        </div>
+</div>
+</div><br>
+<div class="custom">
+    <h2 class="custom-title">Love an element of surprise?</h2>
+    <h3 class="custom-title">Tell us about the event and get a surprise food box:)</h3>
+    <br><h2 class="section-title">Tell us about the event</h2>
+    <form action="#" class="form">
+        <input type="text" name="name" class="input" placeholder="Name"><br>
+        <input type="text" name="theme" class="input" placeholder="Party theme"><br>
+        <input type="text" name="people" class="input" placeholder="Number of people"><br>
+        <input type="text" name="vibe" class="input" placeholder="Formal or casual">
+        <button type="submit" class="btn btn-form">Двигаться к мечте!</button>
+    </form>
+    <h3 class="title-text">We are sure you'll love it</h3>
+</div>
+<footer id="footer" class="footer">
+        <div class="container">
+            <p class="credits">
+                © Copyright sentence here
+            </p>
+        </div>
+</footer>
